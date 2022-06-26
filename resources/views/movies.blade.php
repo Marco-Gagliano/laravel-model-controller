@@ -6,14 +6,14 @@
 
     @foreach ($films as $film)
 
-    <div class="container sc-card">
+    <div class="container sc-card my-3">
       <div class="row">
       	<div class="col">
-					<h1>{{$film->title}}</h1>
-					<p class="original-title">{{$film->original_title}}</p>
-					<p class="nationality">{{$film->nationality}}</p>
-					<p class="date">{{$film->date}}</p>
-					<p class="vote">{{$film->vote}}</p>
+					<p><span>Titolo: </span>{{$film->title}}</p>
+					<p class="original-title"><span>Titolo originale: </span>{{$film->original_title}}</p>
+					<p class="nationality"><span>Paese di Produzione: </span>  {{$film->nationality}}</span>
+					<p class="date"><span>Data di uscita: </span>{{$film->date}}</p>
+					<p class="vote"><span>Voto: </span>{{$film->vote}}</p>
           </div>
         </div>
     </div>

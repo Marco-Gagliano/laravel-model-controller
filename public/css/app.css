@@ -1,3 +1,16 @@
-.sc-card {
-    border: 5px solid red;
-}
+    .sc-card {
+        border: 2px solid #000000;
+        background-color: #8B8B8B;
+        border-radius: 20px;
+    }
+
+    span {
+        font-weight: bold;
+        font-size: 22px;
+        color: #000000;
+    }
+
+    p {
+        font-size: 18px;
+        color: #FFFFFF;
+    }

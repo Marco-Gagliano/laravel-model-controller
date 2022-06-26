@@ -12,7 +12,7 @@ class MovieController extends Controller
 
         $films = Movie::all();
 
-        dump($films);
+        // dump($films);
 
         return view('movies', compact('films'));
     }
